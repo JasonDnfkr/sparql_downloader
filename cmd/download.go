@@ -27,10 +27,73 @@ WHERE {
   ?stream a dblp:Stream .
   VALUES ?stream {
     <https://dblp.org/streams/conf/chi>
-    <https://dblp.org/streams/conf/uist>
-    <https://dblp.org/streams/conf/iui>
-    <https://dblp.org/streams/conf/cscw>
-    <https://dblp.org/streams/conf/group>
+<https://dblp.org/streams/conf/uist>
+<https://dblp.org/streams/conf/iui>
+<https://dblp.org/streams/conf/cscw>
+<https://dblp.org/streams/conf/group>
+<https://dblp.org/streams/conf/tabletop>
+<https://dblp.org/streams/conf/automotiveUI>
+<https://dblp.org/streams/conf/candc>
+<https://dblp.org/streams/conf/chiplay>
+<https://dblp.org/streams/conf/ci2>
+<https://dblp.org/streams/conf/dev>
+<https://dblp.org/streams/conf/cui>
+<https://dblp.org/streams/conf/ACMdis>
+<https://dblp.org/streams/conf/eics>
+<https://dblp.org/streams/conf/etra>
+<https://dblp.org/streams/conf/hri>
+<https://dblp.org/streams/conf/icmi>
+<https://dblp.org/streams/conf/acmidc>
+<https://dblp.org/streams/conf/tvx>
+<https://dblp.org/streams/conf/iui>
+<https://dblp.org/streams/conf/mhci>
+<https://dblp.org/streams/conf/recsys>
+<https://dblp.org/streams/conf/sui>
+<https://dblp.org/streams/conf/tei>
+<https://dblp.org/streams/conf/um>
+<https://dblp.org/streams/conf/huc>
+<https://dblp.org/streams/conf/iswc>
+<https://dblp.org/streams/conf/assets>
+<https://dblp.org/streams/conf/vrst>
+<https://dblp.org/streams/conf/avi>
+<https://dblp.org/streams/conf/mum>
+<https://dblp.org/streams/conf/mc>
+<https://dblp.org/streams/conf/graphicsinterface>
+<https://dblp.org/streams/conf/mm>
+<https://dblp.org/streams/conf/interact>
+<https://dblp.org/streams/conf/nordichi>
+<https://dblp.org/streams/conf/ozchi>
+<https://dblp.org/streams/conf/acii>
+<https://dblp.org/streams/conf/vr>
+<https://dblp.org/streams/conf/ismar>
+<https://dblp.org/streams/conf/visualization>
+<https://dblp.org/streams/conf/vissym>
+<https://dblp.org/streams/conf/siggraph>
+<https://dblp.org/streams/conf/siggrapha>
+<https://dblp.org/streams/conf/sigcse>
+<https://dblp.org/streams/conf/vl>
+<https://dblp.org/streams/conf/lats>
+<https://dblp.org/streams/journals/ijcci>
+<https://dblp.org/streams/journals/tomccap>
+<https://dblp.org/streams/journals/uais>
+<https://dblp.org/streams/journals/tog>
+<https://dblp.org/streams/journals/cgf>
+<https://dblp.org/streams/journals/cg>
+<https://dblp.org/streams/journals/taccess>
+<https://dblp.org/streams/journals/imwut>
+<https://dblp.org/streams/journals/thms>
+<https://dblp.org/streams/journals/tochi>
+<https://dblp.org/streams/journals/ijmms>
+<https://dblp.org/streams/journals/hhci>
+<https://dblp.org/streams/journals/iwc>
+<https://dblp.org/streams/journals/ijhci>
+<https://dblp.org/streams/journals/behaviourIT>
+<https://dblp.org/streams/journals/tvcg>
+<https://dblp.org/streams/journals/pacmhci>
+<https://dblp.org/streams/journals/taffco>
+<https://dblp.org/streams/journals/thri>
+<https://dblp.org/streams/journals/vr>
+<https://dblp.org/streams/journals/ijim>
   }
   ?stream rdfs:label ?stream_name .
   ?pub dblp:publishedInStream ?stream.
