@@ -19,11 +19,11 @@ func main() {
 		log.Fatalf("数据库初始化失败: %v", err)
 	}
 
-	filePath := "dblp/20250406_hci.tsv"
+	filePath := "./dblp/20250407_hci.tsv"
 	download(filePath)
 
 	// 调用parseTsv函数解析
 	parse("dblp_hci_records", filePath)
 
-	fmt.Println("数据已存储至 MongoDB")
+	fmt.Println("运行完毕")
 }
